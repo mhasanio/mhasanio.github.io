@@ -1,0 +1,112 @@
+
+#main #one p dv{
+  font-size: 16px;
+  font-weight: bold;
+  color: #c42e00;
+}
+
+#main #one p fg{
+  font-size: 16px;
+  font-weight: bold;
+  color: #fd5927;
+}
+
+P{
+  margin: 0 0 0 0;
+}
+
+#main > section{
+  padding: 2em;
+  margin: 2em;
+}
+
+.text-justify{
+  justify-content: center;
+  text-align: center;
+}
+
+
+/*============== Second Section =====================*/
+
+#two .left-side li{
+  margin: 20px 0;
+  margin: 0;
+  padding-bottom: 0 0 10px 0;
+  list-style: none;
+}
+
+#two .progress-bar li{
+  display: grid;
+  grid-template-columns: 20% 90%;
+  padding: 10px 0;
+}
+
+#two li h3{
+  line-height: 1;
+}
+
+#two .bar{
+  height: 2px;
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  border-radius: 3px;
+  padding: 9px 0;
+  box-shadow: 0 0 10px #c42e00;
+}
+
+.bar span{
+  display: block;
+  padding: 10px 0;
+  background-color: #6B6054;
+  border: none;
+}
+
+#two .progress-bar .html{
+  margin: -10px;
+  border-radius: 5px;
+  width: 90%;
+  animation: animate 2s;
+}
+
+#two .progress-bar .css{
+  margin: -10px;
+  border-radius: 5px;
+  width: 80%;
+  animation: animate 2s;
+}
+
+#two .progress-bar .js{
+  margin: -10px;
+  border-radius: 5px;
+  width: 30%;
+  animation: animate 2s;
+}
+
+#two .progress-bar .wp{
+  margin: -10px;
+  border-radius: 5px;
+  width: 30%;
+  animation: animate 2s;
+}
+
+@keyframes animate{
+ 0%{
+   width: 0;
+ }
+}
+
+/*============== Third Section =====================*/
+
+.actions{
+  justify-content: center;
+}
+
+/*============== Third Section =====================*/
+
+#three .row{
+  margin-top: 10px;
+}
+
+
+
